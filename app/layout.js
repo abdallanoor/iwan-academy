@@ -14,10 +14,10 @@ export default async function RootLayout({ children }) {
 
   const messages = await getMessages();
 
-  const dirction = locale === "en" ? "ltr" : "rtl";
+  const direction = locale === "en" ? "ltr" : "rtl";
 
   return (
-    <html dir={dirction} lang={locale}>
+    <html dir={direction} lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
           {children}

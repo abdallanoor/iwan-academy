@@ -1,4 +1,12 @@
 {
+  "pages": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "bookFree": "Book Free Evaluation",
   "HomePage": {
     "title": "Iwan Academy"
   }

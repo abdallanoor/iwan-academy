@@ -69,6 +69,47 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      animation: {
+        inT: "inT 0.4s forwards",
+        outT: "outT 0.4s backwards reverse",
+        inM: "inM 0.4s forwards",
+        outM: "outM 0.4s backwards reverse",
+        inBtm: "inBtm 0.4s forwards",
+        outBtm: "outBtm 0.4s backwards reverse",
+      },
+      keyframes: {
+        inM: {
+          "50%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(45deg)" },
+        },
+        outM: {
+          "50%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(45deg)" },
+        },
+        inT: {
+          "0%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(9px) rotate(0deg)" },
+          "100%": { transform: "translateY(9px) rotate(135deg)" },
+        },
+        outT: {
+          "0%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(9px) rotate(0deg)" },
+          "100%": { transform: "translateY(9px) rotate(135deg)" },
+        },
+        inBtm: {
+          "0%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(-9px) rotate(0deg)" },
+          "100%": { transform: "translateY(-9px) rotate(135deg)" },
+        },
+        outBtm: {
+          "0%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(-9px) rotate(0deg)" },
+          "100%": { transform: "translateY(-9px) rotate(135deg)" },
+        },
+      },
+      transitionDuration: {
+        400: "400ms",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

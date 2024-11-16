@@ -1,7 +1,7 @@
-export const navLinks = [
-  { label: "Home", route: "/" },
-  { label: "About", route: "/about" },
-  { label: "Courses", route: "/courses" },
-  { label: "Pricing", route: "/pricing" },
-  { label: "Contact", route: "/contact" },
+export const getNavLinks = (t) => [
+  { label: t("home"), route: "/" },
+  { label: t("about"), route: "/about" },
+  { label: t("courses"), route: "/courses" },
+  { label: t("pricing"), route: "/pricing" },
+  { label: t("contact"), route: "/contact" },
 ];
