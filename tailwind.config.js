@@ -69,6 +69,12 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage: {
+        hero: "url(/images/hero.png)",
+      },
+      backgroundSize: {
+        heroSize: "100px auto",
+      },
       animation: {
         inT: "inT 0.4s forwards",
         outT: "outT 0.4s backwards reverse",
