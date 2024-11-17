@@ -5,13 +5,10 @@ import { useState } from "react";
 
 export default function MobileNav({ navLinks, pathname }) {
   const [navIsOpen, setNavIsOpen] = useState(false);
-  const openNav = () => {
-    setNavIsOpen(!navIsOpen);
-  };
   return (
     <>
       <button
-        onClick={() => openNav()}
+        onClick={() => setNavIsOpen(!navIsOpen)}
         className={`cursor-pointer w-[27px] sm:hidden `}
       >
         <i
@@ -41,6 +38,7 @@ export default function MobileNav({ navLinks, pathname }) {
           {navLinks.map((navLink, index) => (
             <li key={index}>
               <Link
+                onClick={() => setNavIsOpen(!navIsOpen)}
                 className={cn(
                   "py-3 hover:text-primary transition-colors duration-300 block",
                   pathname === navLink.route && "text-primary"
