@@ -25,6 +25,7 @@ module.exports = {
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        section: "hsl(var(--section))",
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
@@ -74,6 +75,9 @@ module.exports = {
       },
       backgroundSize: {
         heroSize: "100px auto",
+      },
+      padding: {
+        section: "75px",
       },
       animation: {
         inT: "inT 0.4s forwards",
