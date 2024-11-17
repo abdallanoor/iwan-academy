@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 
 import "./globals.css";
+import TopLoader from "@/components/TopLoader";
 
 export const metadata = {
   title: "Learn Qur’an, Arabic And Islamic Studies",
@@ -20,6 +21,7 @@ export default async function RootLayout({ children }) {
     <html dir={direction} lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
+          <TopLoader />
           {children}
         </NextIntlClientProvider>
       </body>
