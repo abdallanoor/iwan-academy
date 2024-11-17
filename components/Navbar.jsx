@@ -7,14 +7,15 @@ import { usePathname } from "next/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useLocale, useTranslations } from "next-intl";
 import MobileNav from "./MobileNav";
-import BookFreeButton from "./BookFreeButton";
+import ShareLink from "./ShareLink";
 
 export default function Navbar() {
   const pathname = usePathname();
   const locale = useLocale();
 
-  const t = useTranslations("pages");
-  const navLinks = getNavLinks(t);
+  const t = useTranslations("");
+  const pagesTranslations = useTranslations("pages");
+  const navLinks = getNavLinks(pagesTranslations);
 
   return (
     <header
@@ -52,11 +53,17 @@ export default function Navbar() {
             ))}
           </ul>
         </nav>
+
         <LanguageSwitcher />
 
         <MobileNav navLinks={navLinks} pathname={pathname} />
 
-        <BookFreeButton />
+        <ShareLink
+          title={t("bookFree")}
+          href="https://calendly.com/salahamin911/30min"
+          className="hidden lg:block p-3 ltr:tracking-normal"
+          blank
+        />
       </div>
     </header>
   );
