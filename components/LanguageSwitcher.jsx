@@ -17,7 +17,7 @@ export default function LanguageSwitcher() {
       className="max-sm:ml-auto mr-3 cursor-pointer flex items-center justify-center gap-1 text-sm text-zinc-700 hover:text-primary transition-colors duration-300"
     >
       <Languages className="w-[13px] h-[13px]" />
-      {locale === "en" ? "English" : "العربية"}
+      {locale === "ar" ? "English" : "العربية"}
     </button>
   );
 }
