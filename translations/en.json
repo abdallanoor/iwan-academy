@@ -241,5 +241,36 @@
       "title": "Studying",
       "description": "Pay and start your classes."
     }
+  },
+  "faqs": {
+    "title": "Faqs",
+    "q1": {
+      "question": "What does Iwan mean?",
+      "answer": "The Arabic word “Iwan” means Hall. Iwan Is found in many of the marvelous mosques around the world. it is serving a number of functions including, prayer, teaching, lodging of teachers and students, keeping books and as a reading library as well as a number of charitable activities in stopping stations on the road of pilgrims intended to serve the ill and the needy. More importantly it became the area in which traditional circles of knowledge formed and classes would gather to pass down the sacred sciences, generation to generation. Even today many great mosques around the world hold classes under their “Iwans.”"
+    },
+    "q2": {
+      "question": "How Can I Start?",
+      "answer": "There will be an interview process to ensure the student can benefit from the services. Please contact us if you are unsure whether you meet the prerequisite and for more details."
+    },
+    "q3": {
+      "question": "What software or technical equipment do I need?",
+      "answer": "All classes are conducted are conducted via Zoom, so you will need to download Zoom on your laptop, tablet or smartphone. We also suggest you invest in some good quality headphones, as well as a good internet connection."
+    },
+    "q4": {
+      "question": "Are the teachers ljazah Certified?",
+      "answer": "Yes, all of our teachers are ljazah certified and Huffaz. They also graduated from reputed Islamic Universities."
+    },
+    "q5": {
+      "question": "Can I reschedule classes?",
+      "answer": "We are happy to reschedule a class if you give us 24 hours notice. All students receive our rescheduling policy upon registering."
+    },
+    "q6": {
+      "question": "Does Shaykh teach women?",
+      "answer": "Yes. Please contact for more details."
+    },
+    "q7": {
+      "question": "Do you offer financial assistance?",
+      "answer": "As a new academy, we can only offer very limited financial assistant. Please contact us if you will struggle with payment and we will do what we can to help. We aim to make our services affordable, and we will teach several advanced students for free every year, upon interview. Please contact us for more information. If you would like to sponsor a student, please contact us."
+    }
   }
 }
