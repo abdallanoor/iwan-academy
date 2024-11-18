@@ -147,3 +147,24 @@ export const getWhyIwanData = (t) => [
     imgSrc: "/images/free.png",
   },
 ];
+
+export const getHowItWorksData = (t) => [
+  {
+    stepNumber: t("planning.stepNumber"),
+    title: t("planning.title"),
+    description: t("planning.description"),
+    imgSrc: "/images/planning.png",
+  },
+  {
+    stepNumber: t("scheduling.stepNumber"),
+    title: t("scheduling.title"),
+    description: t("scheduling.description"),
+    imgSrc: "/images/schedule.png",
+  },
+  {
+    stepNumber: t("studying.stepNumber"),
+    title: t("studying.title"),
+    description: t("studying.description"),
+    imgSrc: "/images/studying.png",
+  },
+];

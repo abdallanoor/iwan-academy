@@ -221,5 +221,25 @@
       "title": "Free Demo Class",
       "description": "Get your first free demo class and no payment is required"
     }
+  },
+  "howItWorks": {
+    "title": "How It Works?",
+    "reallySimple": "It Really Is That Simple!",
+    "getStarted": "Get Started",
+    "planning": {
+      "stepNumber": "1",
+      "title": "Planning",
+      "description": "Pick a course and create your goal."
+    },
+    "scheduling": {
+      "stepNumber": "2",
+      "title": "Scheduling",
+      "description": "Share your availability and make your schedule."
+    },
+    "studying": {
+      "stepNumber": "3",
+      "title": "Studying",
+      "description": "Pay and start your classes."
+    }
   }
 }
