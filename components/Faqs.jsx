@@ -1,4 +1,4 @@
-import { getFaqs } from "@/constants";
+import { FREE_EVALUATION_URL, getFaqs } from "@/constants";
 import { useTranslations } from "next-intl";
 import {
   Accordion,
@@ -30,7 +30,7 @@ export default function Faqs() {
         </Accordion>
         <ShareLink
           title={bookFree("bookFree")}
-          href="https://calendly.com/salahamin911/30min"
+          href={FREE_EVALUATION_URL}
           className="block w-fit mx-auto mt-10"
           blank
         />

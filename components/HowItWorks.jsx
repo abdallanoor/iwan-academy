@@ -1,4 +1,4 @@
-import { getHowItWorksData } from "@/constants";
+import { FREE_EVALUATION_URL, getHowItWorksData } from "@/constants";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import ShareLink from "./ShareLink";
@@ -34,7 +34,7 @@ export default function HowItWorks() {
         </p>
         <ShareLink
           title={t("getStarted")}
-          href="https://calendly.com/ShareLinkhamin911/30min"
+          href={FREE_EVALUATION_URL}
           className="hover:bg-transparent"
           blank
         />

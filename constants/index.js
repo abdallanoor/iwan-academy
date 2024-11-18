@@ -1,3 +1,4 @@
+export const FREE_EVALUATION_URL = "https://calendly.com/salahamin911/30min";
 export const getNavLinks = (t) => [
   { label: t("home"), route: "/" },
   { label: t("about"), route: "/about" },

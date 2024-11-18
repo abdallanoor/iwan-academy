@@ -1,5 +1,5 @@
 "use client";
-import { getNavLinks } from "@/constants";
+import { FREE_EVALUATION_URL, getNavLinks } from "@/constants";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
@@ -60,7 +60,7 @@ export default function Navbar() {
 
         <ShareLink
           title={t("bookFree")}
-          href="https://calendly.com/salahamin911/30min"
+          href={FREE_EVALUATION_URL}
           className="hidden lg:block p-3 ltr:tracking-normal"
           blank
         />
