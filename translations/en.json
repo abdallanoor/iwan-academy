@@ -16,5 +16,187 @@
     "ourTutors": "Our Tutors",
     "ourTutorsDes": "We know that learning is easier when you have an excellent teacher. Our instructors are native Egyptian Tutors qualified and graduated from Al-Azhar Al-Sharif University and they are passionate about the courses they teach and bring this enthusiasm into their classes and students.",
     "readMore": "Read more..."
+  },
+  "courses": {
+    "title": "Courses",
+    "description": "we offer variety of courses whether you’re looking for a beginner, or advanced course. All of our courses are customizable for your needs to make sure you have reached your goals.",
+    "islamicStuties": {
+      "title": "Islamic Studies",
+      "aqidah": {
+        "title": "Aqidah (Islamic Creed) :",
+        "content": {
+          "1": "The curriculum has 3 levels:",
+          "2": "- Beginner level: It covers learners from the age of 5 years, an interactive curriculum, prepared by the Iwan academy in Arabic and English, includes activities and exercises on God Almighty, His Names, His Attributes, and the effect of that on human behavior.",
+          "3": "- Intermediate level: A student will study the Islamic faith book for Sheikh Omar Suleiman Al-Ashga; a series about belief in Allah, angels, messengers, the Last Day, and the Day of Resurrection.",
+          "4": "- Advanced level: A student will study ancient faith books, training to read its language through the book ”Explanation of the Tahaawiyah Creed” the book ”Lama' al-Alidah fi Qawaeid 'Ahl al-Sunnah” by Imam al-Juwayni."
+        }
+      },
+      "seerah": {
+        "title": "Seerah and Islamic History :",
+        "content": {
+          "1": "The curriculum has 3 levels:",
+          "2": "- Beginner level: An interactive curriculum, includes children's biography books, video clips about the Prophet's biography selected by a scientific committee of the curriculum preparation team, and has lots of activities suitable for children.",
+          "3": "- Intermediate level: A student studies the book Figh al-Sira by Sheikh Muhammad al-Ghazali through 9 chapters, each chapter is followed by a review and exam.",
+          "4": "- Advanced level: A student studies the book Al-Raheeq Al-Makhtum by Sheikh Safi Al- Din Al-Mubarakpuri, the Arabs' conditions before the Messenger's birth (PBUH), the Messenger's birth (PBUH), his upbringing, prophethood, conquests, and death."
+        }
+      },
+      "tafseer": {
+        "title": "Tafseer (exegesis) :",
+        "content": {
+          "1": "These online Tafseer Classes have been designed to meet certain outcomes at the end of the program:",
+          "2": "- Developing a strong bond with the book of Allah.",
+          "3": "- Understanding the meaning and interpretation of the verses and surahs.",
+          "4": "- Covering the History, Science, and Translation of the Quran.",
+          "5": "- Addressing the different incidents mentioned in the Quran.",
+          "6": "- The themes of the Quran chapters.",
+          "7": "- Understanding the reason, time, and cause of revelations of every verse and Surah.",
+          "8": "- The orders, demands, prohibitions, teachings, manners, and messages in each verse.",
+          "9": "- The teachings of each verse and Surah.",
+          "10": "- The history of revelation and its time and place.",
+          "11": "- Basic Arabic reading and grammar.",
+          "12": "- Implementing the orders of Allah and the ruling of this noble book in your lives.",
+          "13": "- Reading and memorizing the Quran is faster and easier.",
+          "14": "- Reciting the Quran by keeping its meaning and interpretation."
+        }
+      },
+      "fiqh": {
+        "title": "Fiqh :",
+        "content": {
+          "1": "Fiqh has 4 levels:",
+          "2": "- Level 1 Introductory: It is directed to the age of 6 years or beginners in learning jurisprudence, it includes general things in Islam, veneration of the Noble Quran, the Prophet's biography, dealing with others, the jurisprudence of prayer, honoring one's parents, and etiquettes for defecation.",
+          "3": "- Level 2 Beginner: It focuses on purity rules, hygiene, the validity of ablution conditions, washing and tayammum, prayer various rules and its validity, and dealing with people etiquette.",
+          "4": "- Level 3 Intermediate: It focuses on tahara(purity) rules, types of water, ablution, ghusl, tayammum, prayer pillars, the call to prayer, and the Sunnah; the student ends up studying funeral prayer rules.",
+          "5": "- Level 4 Advanced: A student studies Al-Azhar curricula, the 4 well-known opinions of jurisprudence: Al-Maliki, Hanafi, Shaft'i and Hanbali, the jurisprudence of felonies and personal statuses, jurisprudence origins, deducing rules and considered sources in Islamic jurisprudence, deriving evidence and applying it in life situations."
+        }
+      },
+      "hadith": {
+        "title": "Hadith :",
+        "content": {
+          "1": "The Hadith curriculum has 3 levels:",
+          "2": "- Beginner level: An interactive curriculum prepared by Iwan academy in Arabic and English, and it includes hadiths, activities, exercises on beliefs, worship, and ethics.",
+          "3": "- Intermediate level: A student studies the Forty Nawawi book with a full explanation of the hadiths and the lessons learned from the hadith.",
+          "4": "- Advanced level: A student studies the book Al-Raheeq Al-Makhtum by Sheikh Safi Al- Din Al-Mubarakpuri, the Arabs' conditions before the Messenger's birth (PBUH), the Messenger's birth (PBUH), his upbringing, prophethood, conquests, and death."
+        }
+      },
+      "manners": {
+        "title": "Islamic Manners For Children :",
+        "content": {
+          "1": "- Sunan and Adab (Etiquette) of eating, drinking, sleeping, using the right hand, talking, etc.",
+          "2": "- General Islamic Morals and Ethics (Piety, Truthfulness, Peace, Brotherhood, Thankfulness, etc.).",
+          "3": "- Islamic views on Bad habits (Lying, Gossiping, and Backbiting, Cheating, etc.).",
+          "4": "- Islamic views on Seeking Knowledge.",
+          "5": "- Islamic views on respecting Parents and following their orders.",
+          "6": "- Islamic views on respecting elderly people."
+        }
+      }
+    },
+    "arabicStudies": {
+      "title": "Arabic Studies",
+      "grammar": {
+        "title": "Arabic grammar :",
+        "content": {
+          "1": "Learners will:",
+          "2": "- Be taken through a journey of the most used Arabic Grammar rules. This means that you start by learning what really matters first.",
+          "3": "- Be able to recognize and understand the meaning of targeted grammatical structures in written and spoken form.",
+          "4": "- Be able to use targeted grammatical structures meaningfully and appropriately in oral and written production.",
+          "5": "- Be able to self-correct when using targeted grammatical structures.",
+          "6": "- Be able to master the language of the holy Quran.",
+          "7": "- Understand Quran in the language it was revealed by Allah on the Holy Prophet (PBUH).",
+          "8": "- Feel confident while reading Quran.",
+          "9": "- Learn how to read Quran effectively with proper understanding.",
+          "10": "- By completing the Arabic grammar courses online; you will have a better understanding of the Quran directly while reciting it."
+        }
+      },
+      "conversation": {
+        "title": "Arabic Conversation :",
+        "content": {
+          "1": "We offer advanced Arabic and Conversations for all ages. This course is for those who want to improve their existing level of the language and enhance their vocabulary level."
+        }
+      },
+      "arabicChildren": {
+        "title": "Arabic for Children :",
+        "content": {
+          "1": "We offer Courses for children beginners;. When teaching children The tutors ensure that classes are fun, enjoyable, and engaging and include games to help keep the children's attention."
+        }
+      },
+      "arabicQuran": {
+        "title": "Arabic for Quran :",
+        "content": {
+          "1": "- Learn how to read with all vowels step by step.",
+          "2": "- From one letter to two connected letters then to one word with three letters with vowels till reading small verses in a suitable level.",
+          "3": "- Upon successful completion of this course, students will be able to read and listen some of the Verses from Mushaf efficiently."
+        }
+      },
+      "arabicModern": {
+        "title": "Modern Standard Arabic :",
+        "content": {
+          "1": "After you complete the Beginner level, You will be able to:",
+          "2": "- speak about yourself, your family, your place, daily life activity, food and drinks.",
+          "3": "- speak about prayers, education, work ,shopping and weather.",
+          "4": "- speak about places, hobbies, travels, health and vacations with more details using 32 verbs in the past, present, the command verbs, “the order verb”- and the infinitive (verbs with 3 letters).",
+          "5": "After you complete intermediate level, You will be able to:",
+          "6": "- speak about health, vacation – entertainment- and the life in the city.",
+          "7": "- speak about the knowledge, education, jobs, Arabic language and gifts.",
+          "8": "- speak about the important of world wide web –www- and the benefit of it and the hygiene in Islam (for you and the area around you).",
+          "9": "- speak about the Muslim countries over the world then the security and the development.",
+          "10": "With studying some lecture in “sarf” (the name of the verb- the name of the adverb- the infinitive more than 3 letters).",
+          "11": "After you complete the advanced level, You will be able to:",
+          "12": "- speak about the miracle of Quran, problem of minority then speak about The Prophet -peace upon him- Sunna way of living.",
+          "13": "- speak about the kids’ reading stages, reasons for the scholar’s immigrants, the daily life and then end with some stories and jokes.",
+          "14": "- speak about the equality in Islam, and the animal rights, the Arabic proverbs and the marriage problems.",
+          "15": "- speak about the relationship between the parents and their kids, the relation between the water with the life and a father well.",
+          "16": "With studying the important Nahw – Grammar- and Sarf classes."
+        }
+      },
+      "alSarf": {
+        "title": "AL-Sarf :",
+        "content": {
+          "1": "- To acknowledge the reasons behind creating the knowledge of “Sarf”, its relation with “Nahw” knowledge and the importance of “Sarf” in the Arabic language.",
+          "2": "- To acknowledge the subjects and study examples from the Holy Quran, Sunna and the Arabic poetry.",
+          "3": "- Understand those subjects and be able to get it out of the paragraphs.",
+          "4": "- To use it on your speeches and conversations with the Arabic “FUSHA “."
+        }
+      },
+      "egyptianDialect": {
+        "title": "The Egyptian dialect :",
+        "content": {
+          "1": "- The Egyptian dialect is the most commonly understood dialect in the Arab world.",
+          "2": "- This course is perfect for those looking to travel to Arabic speaking countries.",
+          "3": "- Egyptian native tutors will teach this course, with a great ability to teach Egyptian Arabic perfectly to anyone who is eager to learn colloquial Arabic."
+        }
+      }
+    },
+    "quran": {
+      "title": "Qur’an",
+      "quranRecitation": {
+        "title": "Quran Recitation with Tajweed :",
+        "content": {
+          "1": "Quran Recitation Course is designed for those who would like to start the exciting journey of reading the Holy Quran under orientation of skillful tutors.",
+          "2": "- Iwan Academy have been shown to be one of the best ways for people to learn Quran recitation whether it is kids learning Quran recitation or adults doing it.",
+          "3": "- The ability to work at one’s own pace and to be able to repeat different lessons is a key to learning all of the intricacies that surround recitation of the Quran.",
+          "4": "- The course provides the user with the ability to hear how the recitation of the Quran is supposed to be done.",
+          "5": "- Arabic speaking lessons can work with both a person who has never heard the words before or that has some familiarity with the language."
+        }
+      },
+      "quranMemorizing": {
+        "title": "Memorizing Quran with understanding :",
+        "content": {
+          "1": "- Accurate memorization of the Book of Allah.",
+          "2": "- Taking in the general meaning of the verses.",
+          "3": "- Taking in the reasons for revealing the verses.",
+          "4": "Through range number of one-to-one online live classes, Iwan’s tutors follow a highly-effective and integrated strategy to help students memorize the Quran by heart and never forget it. Classes will be determined based on the ability of the student to absorb and memorize the Quran, and based on the program that the student chooses from the following:",
+          "5": "1- Memorizing the last 30 Surahs.",
+          "6": "2- Memorizing some selected Surahs chosen by the student.",
+          "7": "3- Memorizing the whole Quran."
+        }
+      },
+      "Tajweed": {
+        "title": "Tajweed Rules :",
+        "content": {
+          "1": "- Tajweed Rules Course is designed for learning how to pronounce the letters in the words correctly such as when a consonant letter is silent or not, etc.",
+          "2": "- Through one-to-one live sessions with native Arabic tutors, it will be very easy for the Quran student to learn Tajweed for Quran."
+        }
+      }
+    }
   }
 }

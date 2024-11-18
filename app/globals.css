@@ -45,6 +45,12 @@ body {
     @apply bg-background text-foreground;
   }
 }
+.section-title {
+  @apply text-2xl sm:text-3xl text-primary text-center font-medium uppercase mb-6;
+}
+.course-title {
+  @apply text-2xl font-medium text-center mb-5;
+}
 
 .clip-inset-0 {
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
