@@ -1,5 +1,4 @@
 import Image from "next/image";
-import SectionTitle from "./SectionTitle";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -8,7 +7,7 @@ export default function About({ section }) {
   return (
     <section className="py-section">
       <div className="container">
-        <SectionTitle title={t("title")} />
+        <h1 className="section-title">{t("title")}</h1>
         <div className="flex flex-col sm:flex-row items-center gap-5 sm:gap-10">
           <Image
             src="/images/about-iamge.jpg"
