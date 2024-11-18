@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
 body {
   font-family: "Montserrat", "Tajawal", sans-serif !important;
 }
