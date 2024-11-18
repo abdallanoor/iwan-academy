@@ -22,7 +22,7 @@ export default function WhyIwan() {
                 alt={data.title}
                 className="w-20 h-20"
               />
-              <h4 className="text-2xl font-medium">{data.title}</h4>
+              <p className="text-2xl font-medium">{data.title}</p>
               <p>{data.description}</p>
             </div>
           ))}
