@@ -18,9 +18,7 @@ export default function About({ section }) {
           />
           <div className="flex flex-col gap-4 max-sm:text-center">
             <p>{t("description")}</p>
-            <h3 className="text-xl font-medium text-primary">
-              {t("ourTutors")}
-            </h3>
+            <p className="text-xl font-medium text-primary">{t("ourTutors")}</p>
             <p>{t("ourTutorsDes")}</p>
             {section && (
               <Link
