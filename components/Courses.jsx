@@ -37,17 +37,17 @@ export default function Courses({ section }) {
                   alt={course.title}
                   className="w-full md:w-2/5 h-full"
                 />
-                <Accordion
-                  type="single"
-                  className="w-full flex flex-col gap-[5px]"
-                  collapsible
-                >
+                <Accordion type="single" className="accordion" collapsible>
                   {course.courseContent.map((courseContent, i) => (
-                    <AccordionItem key={i} value={i + 1} className="border-0">
-                      <AccordionTrigger className="bg-[#dae6ee] px-2 md:px-4 hover:no-underline ">
+                    <AccordionItem
+                      key={i}
+                      value={i + 1}
+                      className="accordion-item"
+                    >
+                      <AccordionTrigger className="accordion-trigger">
                         {courseContent.title}
                       </AccordionTrigger>
-                      <AccordionContent className="p-2 md:p-4 border border-t-0 flex flex-col gap-3 border-[#dae6ee]">
+                      <AccordionContent className="accordion-content">
                         {courseContent.content.map((content, i) => (
                           <p key={i}>{content}</p>
                         ))}
