@@ -198,5 +198,28 @@
         }
       }
     }
+  },
+  "whyIwan": {
+    "title": "Why Iwan?",
+    "oneOnOne": {
+      "title": "One-on-One",
+      "description": "Modern fun learning in One-on-One classes"
+    },
+    "professional": {
+      "title": "Professional Tutors",
+      "description": "Al-Azhar Al-Sharif certified male and female professional tutors are available"
+    },
+    "fun": {
+      "title": "Learn With Fun",
+      "description": "Reward based learning using the best methods and technologies"
+    },
+    "flexible": {
+      "title": "Flexible Schedule",
+      "description": "Learn from anywhere and according to your schedule"
+    },
+    "free": {
+      "title": "Free Demo Class",
+      "description": "Get your first free demo class and no payment is required"
+    }
   }
 }

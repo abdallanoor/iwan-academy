@@ -119,3 +119,31 @@ export const getCourses = (t) => [
     ],
   },
 ];
+
+export const getWhyIwanData = (t) => [
+  {
+    title: t("oneOnOne.title"),
+    description: t("oneOnOne.description"),
+    imgSrc: "/images/one-on-one.png",
+  },
+  {
+    title: t("professional.title"),
+    description: t("professional.description"),
+    imgSrc: "/images/professional-tutors.png",
+  },
+  {
+    title: t("fun.title"),
+    description: t("fun.description"),
+    imgSrc: "/images/learning-fun.png",
+  },
+  {
+    title: t("flexible.title"),
+    description: t("flexible.description"),
+    imgSrc: "/images/flexible.png",
+  },
+  {
+    title: t("free.title"),
+    description: t("free.description"),
+    imgSrc: "/images/free.png",
+  },
+];
