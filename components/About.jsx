@@ -10,7 +10,7 @@ export default function About({ section }) {
         <h1 className="section-title">{t("title")}</h1>
         <div className="flex flex-col sm:flex-row items-center gap-5 sm:gap-10">
           <Image
-            src="/images/about-iamge.jpg"
+            src="/images/about-image.jpg"
             width={310}
             height={435}
             alt="Learn Qur’an"
