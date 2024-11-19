@@ -272,5 +272,14 @@
       "question": "Do you offer financial assistance?",
       "answer": "As a new academy, we can only offer very limited financial assistant. Please contact us if you will struggle with payment and we will do what we can to help. We aim to make our services affordable, and we will teach several advanced students for free every year, upon interview. Please contact us for more information. If you would like to sponsor a student, please contact us."
     }
+  },
+  "footer": {
+    "aboutIwan": {
+      "title": "About",
+      "description": "Iwan Academy is an educational online academy in order to serve online Qur’an, Tajweed, Arabic Language, and Islamic Studies to Arabs & non-Arabic speakers."
+    },
+    "iwanAcademy": "Iwan Academy",
+    "getInTouch": "Get in touch",
+    "copyright": "Copyright © 2024. Iwan Academy. All Rights Reserved."
   }
 }

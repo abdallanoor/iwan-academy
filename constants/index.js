@@ -1,4 +1,23 @@
 export const FREE_EVALUATION_URL = "https://calendly.com/salahamin911/30min";
+export const WHATSAPP_URL = "https://wa.me/201040564352";
+
+export const contactLinks = [
+  {
+    label: "iwanacademy@yahoo.com",
+    icon: "/icons/email.svg",
+    url: "mailto:iwanacademy@yahoo.com",
+  },
+  {
+    label: "Iwan Academy",
+    icon: "/icons/facebook.svg",
+    url: "https://www.facebook.com/Iwanacademy",
+  },
+  {
+    label: "201040564352",
+    icon: "/icons/whats-app-blue.svg",
+    url: WHATSAPP_URL,
+  },
+];
 export const getNavLinks = (t) => [
   { label: t("home"), route: "/" },
   { label: t("about"), route: "/about" },

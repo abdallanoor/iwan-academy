@@ -73,3 +73,6 @@
 .course-title {
   @apply text-2xl font-medium text-center mb-5;
 }
+.footer-title {
+  @apply text-lg text-zinc-50 font-medium uppercase ltr:tracking-widest mb-5;
+}
