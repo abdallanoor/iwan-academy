@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <header
       dir="ltr"
-      className="sticky inset-0 bg-background shadow direction-reverse font-medium"
+      className="sticky inset-0 bg-background shadow-sm direction-reverse font-medium z-10"
     >
       <div className="container py-[6px] flex justify-between items-center">
         <Link href="/">
