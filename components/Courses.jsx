@@ -13,8 +13,8 @@ export default function Courses({ section }) {
   const t = useTranslations("courses");
   const courses = getCourses(t);
   return (
-    <section className="bg-section py-section">
-      <div className="container">
+    <section className={section && "bg-section py-section"}>
+      <div className={section && "container"}>
         {section && <h1 className="section-title">{t("title")}</h1>}
         <p className="mb-6 text-center">{t("description")}</p>
         <div className="flex flex-col gap-6">
@@ -35,6 +35,7 @@ export default function Courses({ section }) {
                   width={350}
                   height={250}
                   alt={course.title}
+                  priority={true}
                   className="w-full md:w-2/5 h-full"
                 />
                 <Accordion type="single" className="accordion" collapsible>
