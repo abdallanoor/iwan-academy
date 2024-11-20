@@ -19,7 +19,7 @@ module.exports = {
           md: "640px",
           lg: "768px",
           xl: "970px",
-          "2xl": "1170px",
+          "2xl": "1100px",
         },
       },
       colors: {
@@ -36,6 +36,7 @@ module.exports = {
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",
+          alt: "hsl(var(--primary-alt))",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -72,12 +73,17 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url(/images/hero.png)",
+        pageHeaader: "url(/images/page-header.png)",
       },
       backgroundSize: {
         heroSize: "100px auto",
       },
+      backgroundPosition: {
+        50: "50%",
+      },
       padding: {
         section: "75px",
+        page: "40px",
       },
       boxShadow: {
         coursesCard:
@@ -173,6 +179,9 @@ module.exports = {
       },
       transitionDuration: {
         400: "400ms",
+      },
+      hueRotate: {
+        43: "43deg",
       },
     },
   },

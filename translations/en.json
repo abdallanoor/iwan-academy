@@ -281,5 +281,15 @@
     "iwanAcademy": "Iwan Academy",
     "getInTouch": "Get in touch",
     "copyright": "Copyright © 2024. Iwan Academy. All Rights Reserved."
+  },
+  "aboutPage": {
+    "title": "About",
+    "description": {
+      "title": "The Arabic word “Iwan” means Hall.",
+      "1": "Iwan Is found in many of the marvelous mosques around the world.",
+      "2": "it is serving a number of functions including, prayer, teaching, lodging of teachers and students, keeping books and as a reading library as well as a number of charitable activities in stopping stations on the road of pilgrims intended to serve the ill and the needy.",
+      "3": "More importantly it became the area in which traditional circles of knowledge formed and classes would gather to pass down the sacred sciences, generation to generation.",
+      "4": "Even today many great mosques around the world hold classes under their “Iwans.”"
+    }
   }
 }

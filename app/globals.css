@@ -26,6 +26,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     --primary: 203, 86%, 36%;
+    --primary-alt: 206, 90%, 24%;
     --primary-foreground: 0 0% 98%;
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
@@ -50,6 +51,11 @@
   .clip-inset-1 {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
+}
+#nprogress .bar {
+  right: 0 !important; /* Anchor the bar to the right */
+  left: auto !important; /* Remove left anchoring */
+  transform-origin: right center !important; /* Scale from the right side */
 }
 
 /* Accordion overwrite */

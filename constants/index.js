@@ -198,3 +198,10 @@ export const getFaqs = (t) => [
   { question: t("q6.question"), answer: t("q6.answer") },
   { question: t("q7.question"), answer: t("q7.answer") },
 ];
+
+export const getAboutIwanData = (t) => [
+  t("description.1"),
+  t("description.2"),
+  t("description.3"),
+  t("description.4"),
+];

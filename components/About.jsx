@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { cn } from "@/lib/utils";
 
 export default function About({ section }) {
   const t = useTranslations("about");
   return (
-    <section className="py-section">
-      <div className="container">
-        <h1 className="section-title">{t("title")}</h1>
+    <section className={cn(section && "py-section")}>
+      <div className={cn(section && "container")}>
+        {section && <h1 className="section-title">{t("title")}</h1>}
         <div className="flex flex-col sm:flex-row items-center gap-5 sm:gap-10">
           <Image
             src="/images/about-image.jpg"
