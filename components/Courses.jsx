@@ -19,10 +19,7 @@ export default function Courses({ section }) {
         <p className="mb-6 text-center">{t("description")}</p>
         <div className="flex flex-col gap-6">
           {courses.map((course, i) => (
-            <div
-              key={i}
-              className="py-5 px-[10px] shadow-coursesCard rounded-md"
-            >
+            <div key={i} className="py-5 px-[10px] shadow-md rounded-md">
               <h2 className="course-title">{course.title}</h2>
               <div
                 className={cn(
