@@ -205,3 +205,134 @@ export const getAboutIwanData = (t) => [
   t("description.3"),
   t("description.4"),
 ];
+
+// export const getPricingData = (t) => ({
+//   durations: {
+//     30: {
+//       packages: [
+//         {
+//           title: t("30.packages.0.title"),
+//           price: t("30.packages.0.price"),
+//           period: t("30.packages.0.period"),
+//           details: [
+//             { text: t("30.packages.0.details.0"), icon: "calendar" },
+//             { text: t("30.packages.0.details.1"), icon: "class" },
+//             { text: t("30.packages.0.details.2"), icon: "clock" },
+//           ],
+//           discounts: [
+//             {
+//               duration: t("30.packages.0.discounts.0.duration"),
+//               price: t("30.packages.0.discounts.0.price"),
+//               discount: t("30.packages.0.discounts.0.discount"),
+//             },
+//             {
+//               duration: t("30.packages.0.discounts.1.duration"),
+//               price: t("30.packages.0.discounts.1.price"),
+//               discount: t("30.packages.0.discounts.1.discount"),
+//             },
+//           ],
+//         },
+//         {
+//           title: t("30.packages.1.title"),
+//           price: t("30.packages.1.price"),
+//           period: t("30.packages.1.period"),
+//           details: [
+//             { text: t("30.packages.1.details.0"), icon: "calendar" },
+//             { text: t("30.packages.1.details.1"), icon: "class" },
+//             { text: t("30.packages.1.details.2"), icon: "clock" },
+//           ],
+//           discounts: [
+//             {
+//               duration: t("30.packages.1.discounts.0.duration"),
+//               price: t("30.packages.1.discounts.0.price"),
+//               discount: t("30.packages.1.discounts.0.discount"),
+//             },
+//             {
+//               duration: t("30.packages.1.discounts.1.duration"),
+//               price: t("30.packages.1.discounts.1.price"),
+//               discount: t("30.packages.1.discounts.1.discount"),
+//             },
+//           ],
+//         },
+//       ],
+//     },
+//     60: {
+//       packages: [
+//         {
+//           title: t("60.packages.0.title"),
+//           price: t("60.packages.0.price"),
+//           period: t("60.packages.0.period"),
+//           details: [
+//             { text: t("60.packages.0.details.0"), icon: "calendar" },
+//             { text: t("60.packages.0.details.1"), icon: "class" },
+//             { text: t("60.packages.0.details.2"), icon: "clock" },
+//           ],
+//           discounts: [
+//             {
+//               duration: t("60.packages.0.discounts.0.duration"),
+//               price: t("60.packages.0.discounts.0.price"),
+//               discount: t("60.packages.0.discounts.0.discount"),
+//             },
+//             {
+//               duration: t("60.packages.0.discounts.1.duration"),
+//               price: t("60.packages.0.discounts.1.price"),
+//               discount: t("60.packages.0.discounts.1.discount"),
+//             },
+//           ],
+//         },
+//         {
+//           title: t("60.packages.1.title"),
+//           price: t("60.packages.1.price"),
+//           period: t("60.packages.1.period"),
+//           details: [
+//             { text: t("60.packages.1.details.0"), icon: "calendar" },
+//             { text: t("60.packages.1.details.1"), icon: "class" },
+//             { text: t("60.packages.1.details.2"), icon: "clock" },
+//           ],
+//           discounts: [
+//             {
+//               duration: t("60.packages.1.discounts.0.duration"),
+//               price: t("60.packages.1.discounts.0.price"),
+//               discount: t("60.packages.1.discounts.0.discount"),
+//             },
+//             {
+//               duration: t("60.packages.1.discounts.1.duration"),
+//               price: t("60.packages.1.discounts.1.price"),
+//               discount: t("60.packages.1.discounts.1.discount"),
+//             },
+//           ],
+//         },
+//       ],
+//     },
+//   },
+// });
+
+export const getPricingData = (t) => {
+  const createPackage = (prefix, numPackages) => {
+    return Array.from({ length: numPackages }, (_, index) => ({
+      title: t(`${prefix}.packages.${index}.title`),
+      price: t(`${prefix}.packages.${index}.price`),
+      period: t(`${prefix}.packages.${index}.period`),
+      details: Array.from({ length: 3 }, (_, i) => ({
+        text: t(`${prefix}.packages.${index}.details.${i}`),
+        icon: ["calendar", "class", "clock"][i],
+      })),
+      discounts: Array.from({ length: 2 }, (_, i) => ({
+        duration: t(`${prefix}.packages.${index}.discounts.${i}.duration`),
+        price: t(`${prefix}.packages.${index}.discounts.${i}.price`),
+        discount: t(`${prefix}.packages.${index}.discounts.${i}.discount`),
+      })),
+    }));
+  };
+
+  return {
+    durations: {
+      30: {
+        packages: createPackage("30", 5),
+      },
+      60: {
+        packages: createPackage("60", 6),
+      },
+    },
+  };
+};

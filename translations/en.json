@@ -291,5 +291,218 @@
       "3": "More importantly it became the area in which traditional circles of knowledge formed and classes would gather to pass down the sacred sciences, generation to generation.",
       "4": "Even today many great mosques around the world hold classes under their “Iwans.”"
     }
+  },
+  "pricing": {
+    "title": "Pricing",
+    "description": "First class is free. No payment required for the first free class. Hurry up and Signup now.",
+    "minutes": "minutes",
+    "weekly": "Weekly",
+    "us": "US$",
+    "30": {
+      "packages": [
+        {
+          "title": "2 Days",
+          "price": "60",
+          "period": "Month",
+          "details": ["2 Day / Week", "8 Classes / Month", "30 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "334.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "612.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "3 Days",
+          "price": "90",
+          "period": "Month",
+          "details": ["3 Day / Week", "12 Classes / Month", "30 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "502.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "918.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "4 Days",
+          "price": "120",
+          "period": "Month",
+          "details": ["4 Day / Week", "16 Classes / Month", "30 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "669.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "1224.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "5 Days",
+          "price": "150",
+          "period": "Month",
+          "details": ["5 Day / Week", "20 Classes / Month", "30 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "837.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "1530.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "6 Days",
+          "price": "180",
+          "period": "Month",
+          "details": ["6 Day / Week", "24 Classes / Month", "30 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "1004.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "1836.00",
+              "discount": "Save 15%"
+            }
+          ]
+        }
+      ]
+    },
+    "60": {
+      "packages": [
+        {
+          "title": "1 Days",
+          "price": "60",
+          "period": "Month",
+          "details": ["1 Day / Week", "4 Classes / Month", "60 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "334.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "612.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "2 Days",
+          "price": "120",
+          "period": "Month",
+          "details": ["2 Day / Week", "8 Classes / Month", "60 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "669.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "1224.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "3 Days",
+          "price": "180",
+          "period": "Month",
+          "details": ["3 Day / Week", "12 Classes / Month", "60 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "1004.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "1836.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "4 Days",
+          "price": "240",
+          "period": "Month",
+          "details": ["4 Day / Week", "16 Classes / Month", "60 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "1339.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "2448.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "5 Days",
+          "price": "300",
+          "period": "Month",
+          "details": ["5 Day / Week", "20 Classes / Month", "60 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "1674.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "3060.00",
+              "discount": "Save 15%"
+            }
+          ]
+        },
+        {
+          "title": "6 Days",
+          "price": "360",
+          "period": "Month",
+          "details": ["6 Day / Week", "24 Classes / Month", "60 Mins / Day"],
+          "discounts": [
+            {
+              "duration": "6 Months",
+              "price": "2008.00",
+              "discount": "Save 7%"
+            },
+            {
+              "duration": "12 Months",
+              "price": "3687.00",
+              "discount": "Save 15%"
+            }
+          ]
+        }
+      ]
+    }
   }
 }
