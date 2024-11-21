@@ -1,4 +1,4 @@
-import { FREE_EVALUATION_URL, getFaqs } from "@/constants";
+import { getFaqs } from "@/constants";
 import { useTranslations } from "next-intl";
 import {
   Accordion,
@@ -6,10 +6,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import ShareLink from "./ShareLink";
 
 export default function Faqs() {
-  const bookFree = useTranslations("");
   const t = useTranslations("faqs");
   const faqs = getFaqs(t);
   return (
@@ -28,12 +26,6 @@ export default function Faqs() {
             </AccordionItem>
           ))}
         </Accordion>
-        <ShareLink
-          title={bookFree("bookFree")}
-          href={FREE_EVALUATION_URL}
-          className="block w-fit mx-auto mt-10"
-          blank
-        />
       </div>
     </section>
   );
