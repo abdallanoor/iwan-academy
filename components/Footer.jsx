@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
           <div>
             <p className="footer-title">{tFooter("getInTouch")}</p>
-            <ContactLinks />
+            <ContactLinks footer />
           </div>
         </div>
         <div className="mt-10 py-5 max-sm:pb-24 text-center text-sm font-normal border-t border-zinc-700">
