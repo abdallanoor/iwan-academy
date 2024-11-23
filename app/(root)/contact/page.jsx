@@ -3,7 +3,14 @@ import PageHeader from "@/components/PageHeader";
 import ShareLink from "@/components/ShareLink";
 import { FREE_EVALUATION_URL } from "@/constants";
 import { useTranslations } from "next-intl";
-
+import { getTranslations } from "next-intl/server";
+export async function generateMetadata() {
+  const t = await getTranslations("metadata.contact");
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 export default function ContactPage() {
   const tBookFree = useTranslations("");
   const t = useTranslations("contact");

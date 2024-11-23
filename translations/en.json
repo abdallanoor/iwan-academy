@@ -1,4 +1,24 @@
 {
+  "metadata": {
+    "title": "Learn Qur’an, Arabic And Islamic Studies",
+    "description": "Iwan Academy is an educational online academy in order to serve online Qur’an, Tajweed, Arabic Language, and Islamic Studies to Arabs & non-Arabic speakers.",
+    "keywords": "Quran learning, Tajweed lessons, Quran interpretation, Quran teaching for children, Quran teaching for adults, Arabic language learning, Grammar and morphology lessons, Arabic conversation classes, Islamic jurisprudence lessons, Hadith studies, Islamic creed lessons, Islamic studies courses, Online Quran teaching, Online Arabic teaching, Iwan Academy",
+    "about": {
+      "title": "About - Iwan Academy"
+    },
+    "courses": {
+      "title": "Courses - Iwan Academy",
+      "description": "we offer variety of courses whether you’re looking for a beginner, or advanced course. All of our courses are customizable for your needs to make sure you have reached your goals."
+    },
+    "pricing": {
+      "title": "Pricing - Iwan Academy",
+      "description": "First class is free. No payment required for the first free class. Hurry up and Signup now."
+    },
+    "contact": {
+      "title": "Contact - Iwan Academy",
+      "description": "Get in touch with any questions or queries that you may have"
+    }
+  },
   "pages": {
     "home": "Home",
     "about": "About",

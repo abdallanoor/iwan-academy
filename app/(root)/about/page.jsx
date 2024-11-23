@@ -2,7 +2,15 @@ import About from "@/components/About";
 import PageHeader from "@/components/PageHeader";
 import { getAboutIwanData } from "@/constants";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+
+export async function generateMetadata() {
+  const t = await getTranslations("metadata.about");
+  return {
+    title: t("title"),
+  };
+}
 
 export default function AboutPage() {
   const t = useTranslations("aboutPage");
