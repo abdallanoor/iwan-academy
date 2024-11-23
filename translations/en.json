@@ -6,6 +6,13 @@
     "pricing": "Pricing",
     "contact": "Contact"
   },
+  "whatsapp": {
+    "iwanAcademy": "Iwan Academy",
+    "bio": "Typically replies within a day",
+    "salam": "As-salamu alaykum!",
+    "message": "Click below to chat with us on WhatsApp. We're available to answer any questions that you may have about the Iwan Academy.",
+    "startChat": "Start Chat"
+  },
   "bookFree": "Book Free Evaluation",
   "welcome": "Welcome To",
   "title": "Iwan Academy",

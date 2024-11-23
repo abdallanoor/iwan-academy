@@ -74,6 +74,7 @@ module.exports = {
       backgroundImage: {
         hero: "url(/images/hero.png)",
         pageHeaader: "url(/images/page-header.png)",
+        whatsappChat: "url(/images/watsapp-bg.png)",
       },
       backgroundSize: {
         heroSize: "100px auto",
@@ -85,9 +86,16 @@ module.exports = {
         section: "75px",
         page: "40px",
       },
+      width: {
+        13: "50px",
+      },
+      height: {
+        13: "50px",
+      },
       boxShadow: {
         coursesCard:
           "0 0 2px rgb(141 141 148/16%),0 4px 8px rgb(141 141 148/28%)",
+        WhatsappWidget: "rgba(0, 0, 0, 0.1) 0px 12px 24px 0px",
       },
       animation: {
         inT: "inT 0.4s forwards",
