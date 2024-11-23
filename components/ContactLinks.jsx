@@ -2,7 +2,7 @@ import { contactLinks } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ContactLinks() {
+export default function ContactLinks({ footer }) {
   return (
     <div className="flex flex-col gap-4">
       {contactLinks.map((contactLink, i) => (
@@ -15,7 +15,7 @@ export default function ContactLinks() {
             className="w-7 h-7"
           />
           <Link
-            className="hover:text-zinc-50"
+            className={footer ? "hover:text-zinc-50" : "hover:opacity-80"}
             href={contactLink.url}
             target="_blank"
           >
