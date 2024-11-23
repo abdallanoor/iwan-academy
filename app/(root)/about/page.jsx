@@ -1,12 +1,10 @@
 import About from "@/components/About";
 import PageHeader from "@/components/PageHeader";
-import ShareLink from "@/components/ShareLink";
-import { FREE_EVALUATION_URL, getAboutIwanData } from "@/constants";
+import { getAboutIwanData } from "@/constants";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 export default function AboutPage() {
-  const bookFree = useTranslations("");
   const t = useTranslations("aboutPage");
   const aboutIwanData = getAboutIwanData(t);
   return (
@@ -18,8 +16,8 @@ export default function AboutPage() {
             <p className="text-xl font-medium text-primary">
               {t("description.title")}
             </p>
-            {aboutIwanData.map((data, i) => (
-              <p key={i}>{data}</p>
+            {aboutIwanData.map((data, index) => (
+              <p key={index}>{data}</p>
             ))}
           </div>
           <Image
@@ -31,12 +29,6 @@ export default function AboutPage() {
             className="hue-rotate-43 w-[930] h-full"
           />
           <About />
-          <ShareLink
-            title={bookFree("bookFree")}
-            href={FREE_EVALUATION_URL}
-            className="block w-fit mx-auto"
-            blank
-          />
         </div>
       </div>
     </main>
