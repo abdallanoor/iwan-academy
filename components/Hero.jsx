@@ -14,8 +14,17 @@ export default function Hero() {
           <h2 className="text-2xl">{t("description")}</h2>
         </div>
         <div className="flex items-center justify-center flex-col sm:flex-row gap-3 w-full">
-          <ShareLink title={t("pages.courses")} href="/courses" reverse />
-          <ShareLink title={t("pages.contact")} href="/contact" />
+          <ShareLink
+            title={t("pages.courses")}
+            href="/courses"
+            className="max-sm:w-full"
+            reverse
+          />
+          <ShareLink
+            title={t("pages.contact")}
+            href="/contact"
+            className="max-sm:w-full"
+          />
         </div>
       </div>
     </section>
