@@ -55,7 +55,7 @@ export default function WhatsappWidget() {
             <div className="relative p-3 text-sm bg-white max-w-[calc(100%-45px)] rounded-md">
               <p className="mb-2">{t("salam")}</p>
               <p>{t("message")}</p>
-              <div className="absolute -bottom-2 left-3 w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-l-transparent border-r-transparent border-t-white"></div>
+              <div className="absolute -bottom-2 left-3 rtl:right-3 w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-l-transparent border-r-transparent border-t-white"></div>
             </div>
           </div>
           <div className="p-6 font-medium ">
