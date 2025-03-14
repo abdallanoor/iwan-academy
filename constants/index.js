@@ -3,9 +3,9 @@ export const WHATSAPP_URL = "https://wa.me/201040564352";
 
 export const contactLinks = [
   {
-    label: "iwanacademy@yahoo.com",
+    label: "iwanacademy.info@gmail.com",
     icon: "/icons/email.svg",
-    url: "mailto:iwanacademy@yahoo.com",
+    url: "mailto:iwanacademy.info@gmail.com",
   },
   {
     label: "Iwan Academy",
