@@ -28,13 +28,13 @@ export default function WhatsappWidget() {
         </button>
         <div
           className={cn(
-            "fixed bottom-[85px] translate-y-4 sm:bottom-24 right-5 rounded-md bg-white w-[360px] shadow-WhatsappWidget z-10 opacity-0 invisible transition-all ",
+            "fixed bottom-[85px] translate-y-4 sm:bottom-24 right-5 rounded-md bg-white w-[360px] shadow-WhatsappWidget z-10 opacity-0 invisible transition-all duration-300",
             isOpen && "translate-y-0 visible opacity-100"
           )}
         >
           <div className="relative flex items-center gap-2 p-6">
             <button
-              className="absolute top-1 right-1 opacity-50 hover:opacity-100"
+              className="absolute top-2 right-2 opacity-50 hover:opacity-100"
               onClick={() => setIsOpen(false)}
             >
               <X size={18} />
