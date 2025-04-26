@@ -12,7 +12,7 @@ Developed a website for an academy, showcasing courses, pricing, contact options
 
 ## Tech Stack
 
-- React.js
+- Next.js
 - Tailwind CSS
 - i18n
 - Shadcn UI
