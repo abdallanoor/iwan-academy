@@ -18,6 +18,7 @@ export default function ContactLinks({ footer }) {
             className={footer ? "hover:text-zinc-50" : "hover:opacity-80"}
             href={contactLink.url}
             target="_blank"
+            title={contactLink.title}
           >
             {contactLink.label}
           </Link>
