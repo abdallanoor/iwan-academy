@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 
-export default function About({ section }) {
+export default function AboutContent({ section }) {
   const t = useTranslations("about");
   return (
     <section className={cn(section && "py-section")}>

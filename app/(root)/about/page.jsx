@@ -1,5 +1,5 @@
-import About from "@/components/About";
-import PageHeader from "@/components/PageHeader";
+import About from "@/components/shared/AboutContent";
+import PageHeader from "@/components/shared/PageHeader";
 import { getAboutIwanData } from "@/constants";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";

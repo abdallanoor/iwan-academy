@@ -86,7 +86,7 @@ function PackageCard({ pkg, t }) {
   );
 }
 
-export default function Pricing() {
+export default function PricingContent() {
   const [selectedDuration, setSelectedDuration] = useState(30);
   const t = useTranslations("pricing");
   const pricingData = getPricingData(t);

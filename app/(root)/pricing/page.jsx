@@ -1,7 +1,7 @@
-import PageHeader from "@/components/PageHeader";
-import Pricing from "@/components/Pricing";
+import PageHeader from "@/components/shared/PageHeader";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
+import PricingContent from "./PricingContent";
 
 export async function generateMetadata() {
   const t = await getTranslations("metadata.pricing");
@@ -17,7 +17,7 @@ export default function PricingPage() {
     <main>
       <PageHeader title={t("title")} />
       <div className="container py-page">
-        <Pricing />
+        <PricingContent />
       </div>
     </main>
   );

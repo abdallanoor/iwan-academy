@@ -1,19 +1,19 @@
-import About from "@/components/About";
-import Courses from "@/components/Courses";
-import Faqs from "@/components/Faqs";
-import Hero from "@/components/Hero";
-import HowItWorks from "@/components/HowItWorks";
-import WhyIwan from "@/components/WhyIwan";
+import AboutContent from "@/components/shared/AboutContent";
+import CoursesContent from "@/components/shared/CoursesContent";
+import FaqsSection from "@/components/home/FaqsSection";
+import HeroSection from "@/components/home/HeroSection";
+import WhyIwanSection from "@/components/home/WhyIwanSection";
+import HowItWorksSection from "@/components/home/HowItWorksSection";
 
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <About section />
-      <Courses section />
-      <WhyIwan />
-      <HowItWorks />
-      <Faqs />
+      <HeroSection />
+      <AboutContent section />
+      <CoursesContent section />
+      <WhyIwanSection />
+      <HowItWorksSection />
+      <FaqsSection />
     </main>
   );
 }

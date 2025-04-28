@@ -1,8 +1,8 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import ScrollToTop from "@/components/ScrollToTop";
-import ShareLink from "@/components/ShareLink";
-import WhatsappWidget from "@/components/WhatsappWidget";
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/Navbar";
+import ScrollToTop from "@/components/shared/ScrollToTop";
+import ShareLink from "@/components/shared/ShareLink";
+import WhatsappWidget from "@/components/shared/WhatsappWidget";
 import { FREE_EVALUATION_URL } from "@/constants";
 import { useTranslations } from "next-intl";
 

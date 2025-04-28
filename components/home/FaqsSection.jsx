@@ -7,7 +7,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export default function Faqs() {
+export default function FaqsSection() {
   const t = useTranslations("faqs");
   const faqs = getFaqs(t);
   return (

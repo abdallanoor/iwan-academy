@@ -2,7 +2,7 @@ import { getWhyIwanData } from "@/constants";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
-export default function WhyIwan() {
+export default function WhyIwanSection() {
   const t = useTranslations("whyIwan");
   const whyIwanData = getWhyIwanData(t);
   return (

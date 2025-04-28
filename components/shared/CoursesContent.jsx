@@ -9,7 +9,7 @@ import {
 import { getCourses } from "@/constants";
 import { cn } from "@/lib/utils";
 
-export default function Courses({ section }) {
+export default function CoursesContent({ section }) {
   const t = useTranslations("courses");
   const courses = getCourses(t);
   return (

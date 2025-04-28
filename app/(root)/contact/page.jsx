@@ -1,6 +1,6 @@
-import ContactLinks from "@/components/ContactLinks";
-import PageHeader from "@/components/PageHeader";
-import ShareLink from "@/components/ShareLink";
+import ContactLinks from "@/components/shared/ContactLinks";
+import PageHeader from "@/components/shared/PageHeader";
+import ShareLink from "@/components/shared/ShareLink";
 import { FREE_EVALUATION_URL } from "@/constants";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";

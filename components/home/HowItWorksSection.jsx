@@ -1,9 +1,9 @@
 import { FREE_EVALUATION_URL, getHowItWorksData } from "@/constants";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import ShareLink from "./ShareLink";
+import ShareLink from "../shared/ShareLink";
 
-export default function HowItWorks() {
+export default function HowItWorksSection() {
   const t = useTranslations("howItWorks");
   const steps = getHowItWorksData(t);
   return (

@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
-import ShareLink from "./ShareLink";
+import ShareLink from "../shared/ShareLink";
 
-export default function Hero() {
+export default function HeroSection() {
   const t = useTranslations("");
   return (
     <section className="bg-hero bg-heroSize h-[calc(100vh-75px)]">

@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
 
 import "./globals.css";
-import TopLoader from "@/components/TopLoader";
+import TopLoader from "@/components/shared/TopLoader";
 
 const Metadata = ({ t }) => (
   <>

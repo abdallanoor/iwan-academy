@@ -1,5 +1,5 @@
-import Courses from "@/components/Courses";
-import PageHeader from "@/components/PageHeader";
+import CoursesContent from "@/components/shared/CoursesContent";
+import PageHeader from "@/components/shared/PageHeader";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 export async function generateMetadata() {
@@ -15,7 +15,7 @@ export default function CoursesPage() {
     <main>
       <PageHeader title={t("courses")} />
       <div className="container py-page">
-        <Courses />
+        <CoursesContent />
       </div>
     </main>
   );
