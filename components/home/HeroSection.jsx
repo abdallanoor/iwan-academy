@@ -8,7 +8,7 @@ export default function HeroSection() {
       <div className="container h-full flex items-center justify-center flex-col">
         <div className="flex flex-col items-center text-center gap-3 text-primary mb-4">
           <p className="text-2xl">{t("welcome")}</p>
-          <h1 className="text-4xl md:text-[80px] md:leading-none font-bold uppercase">
+          <h1 className="text-4xl md:text-[80px] md:leading-none font-bold uppercase md:rtl:mb-4">
             {t("title")}
           </h1>
           <h2 className="text-2xl">{t("description")}</h2>
