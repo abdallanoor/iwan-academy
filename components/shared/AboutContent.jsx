@@ -15,7 +15,7 @@ export default function AboutContent({ section }) {
             width={310}
             height={435}
             alt="Learn Qur’an"
-            className="w-full sm:w-[310px] h-full sm:h-[435px]"
+            className="w-full sm:w-[310px] h-full sm:h-[435px] rounded-lg object-cover"
           />
           <div className="flex flex-col gap-4 max-sm:text-center">
             <p>{t("description")}</p>
