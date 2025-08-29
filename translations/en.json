@@ -535,5 +535,12 @@
   "contact": {
     "title": "Contact",
     "description": "Get in touch with any questions or queries that you may have"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "quickLinks": "What can you do?",
+    "description": "You can return to the homepage or browse our excellent educational courses",
+    "backHome": "Back to Home",
+    "courses": "Browse Courses"
   }
 }
