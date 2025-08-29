@@ -1,11 +1,9 @@
 import Navbar from "@/components/shared/Navbar";
-import ShareLink from "@/components/shared/ShareLink";
 import Footer from "@/components/shared/Footer";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
 import PageHeader from "@/components/shared/PageHeader";
-import { Button } from "@/components/ui/button";
-import { SearchX, BookOpen, MessageCircle, Building2 } from "lucide-react";
+import ShareLink from "@/components/shared/ShareLink";
+import { SearchX } from "lucide-react";
 
 export default function NotFound() {
   const t = useTranslations("notFound");
@@ -15,7 +13,6 @@ export default function NotFound() {
       <section>
         <PageHeader title={t("title")} />
 
-        {/* Main content */}
         <div className="container py-page text-center">
           <div className="mb-8">
             <div className="w-24 h-24 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6">
