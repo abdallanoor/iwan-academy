@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section className="bg-hero bg-heroSize h-[calc(100vh-75px)]">
       <div className="container h-full flex items-center justify-center flex-col">
-        <div className="flex flex-col items-center text-center gap-3 text-primary mb-4">
+        <div className="flex flex-col items-center text-center gap-3 text-primary mb-8">
           <p className="text-2xl">{t("welcome")}</p>
           <h1 className="text-4xl md:text-[80px] md:leading-none font-bold uppercase md:rtl:mb-4">
             {t("title")}
