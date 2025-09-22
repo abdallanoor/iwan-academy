@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
       siteName: t("title"),
       images: [
         {
-          url: "/images/iwan-small.jpg",
+          url: "/images/iwan.jpg",
           width: 1200,
           height: 630,
           alt: t("description"),
