@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { useState } from "react";
 
 export default function MobileNav({ navLinks, pathname }) {

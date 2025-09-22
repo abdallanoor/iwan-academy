@@ -2,8 +2,7 @@
 import { FREE_EVALUATION_URL, getNavLinks } from "@/constants";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link, usePathname } from "@/i18n/routing";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { useLocale, useTranslations } from "next-intl";
 import MobileNav from "./MobileNav";
