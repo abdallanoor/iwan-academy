@@ -1,9 +1,12 @@
 import DashboardHeader from "@/components/dashboard/header";
+import { useTranslations } from "next-intl";
 
 export default function Blogs() {
+  const t = useTranslations("dashboard");
+
   const breadcrumbs = [
-    { label: "Iwan Dashboard", href: "/dashboard" },
-    { label: "Blogs" },
+    { label: t("links.iwanDashboard"), href: "/dashboard" },
+    { label: t("links.blogs") },
   ];
   return (
     <>

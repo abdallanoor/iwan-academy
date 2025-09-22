@@ -542,5 +542,13 @@
     "description": "You can return to the homepage or browse our excellent educational courses",
     "backHome": "Back to Home",
     "courses": "Browse Courses"
+  },
+  "dashboard": {
+    "links": {
+      "iwanDashboard": "Iwan Dashboard",
+      "back": "Back",
+      "home": "Home",
+      "blogs": "Blogs"
+    }
   }
 }

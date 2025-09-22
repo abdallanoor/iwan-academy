@@ -16,6 +16,7 @@ import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Fragment } from "react";
 import Link from "next/link";
+import { useLocale } from "next-intl";
 
 export default function DashboardHeader({
   breadcrumbs,
@@ -24,6 +25,7 @@ export default function DashboardHeader({
   onBackClick,
 }) {
   const router = useRouter();
+  const locale = useLocale();
 
   const handleBackClick = () => {
     if (onBackClick) {
@@ -58,7 +60,11 @@ export default function DashboardHeader({
           <BreadcrumbList>
             {breadcrumbs.map((breadcrumb, index) => (
               <Fragment key={index}>
-                {index > 0 && <BreadcrumbSeparator />}
+                {index > 0 && (
+                  <BreadcrumbSeparator
+                    className={`${locale === "ar" && "rotate-180"}`}
+                  />
+                )}
                 <BreadcrumbItem>
                   {breadcrumb.href ? (
                     <BreadcrumbLink asChild className="truncate">

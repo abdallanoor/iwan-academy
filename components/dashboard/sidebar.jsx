@@ -11,38 +11,33 @@ import {
   SidebarMenuItem,
   SidebarRail,
 } from "@/components/ui/sidebar";
-import { FileText, GraduationCap, HomeIcon } from "lucide-react";
-import { useLocale } from "next-intl";
+import { FileText, HomeIcon } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
 
-const navItems = [
-  {
-    title: "Home",
-    icon: HomeIcon,
-    url: "/dashboard",
-    isActive: false,
-  },
-  {
-    title: "Blogs",
-    icon: FileText,
-    url: "/dashboard/blogs",
-    isActive: false,
-  },
-  // {
-  //   title: "Courses",
-  //   icon: GraduationCap,
-  //   url: "/dashboard/courses",
-  //   isActive: false,
-  // },
-];
-
 export function DashboardSidebar({ ...props }) {
   const locale = useLocale();
-
   const pathname = usePathname();
+  const t = useTranslations("dashboard");
+
+  const navItems = useMemo(
+    () => [
+      {
+        title: t("links.home"),
+        icon: HomeIcon,
+        url: "/dashboard",
+      },
+      {
+        title: t("links.blogs"),
+        icon: FileText,
+        url: "/dashboard/blogs",
+      },
+    ],
+    [t]
+  );
 
   // Update active state based on current path
   const updatedNavItems = useMemo(
@@ -56,7 +51,7 @@ export function DashboardSidebar({ ...props }) {
             : pathname.startsWith(item.url),
         };
       }),
-    [pathname]
+    [pathname, navItems]
   );
 
   return (
@@ -77,9 +72,16 @@ export function DashboardSidebar({ ...props }) {
             <SidebarMenu>
               {updatedNavItems.map((item) => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton asChild isActive={item.isActive}>
-                    <Link href={item.url} className="flex items-center gap-3">
-                      <item.icon className="h-4 w-4" />
+                  <SidebarMenuButton
+                    asChild
+                    isActive={item.isActive}
+                    className="py-5 font-medium"
+                  >
+                    <Link
+                      href={item.url}
+                      className="flex items-center gap-2 leading-normal"
+                    >
+                      <item.icon />
                       <span>{item.title}</span>
                     </Link>
                   </SidebarMenuButton>
